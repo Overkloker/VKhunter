@@ -7,7 +7,6 @@
 - [x] Firs commit
 - [x] Add tree
 - [ ] API VK
-:circus_tent:
 
 ##License
 

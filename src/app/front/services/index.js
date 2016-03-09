@@ -1,3 +1,3 @@
-//Created by Frank 07.03.2016 on (22:10). FOR PROJECT ©VKhunter
-//FILE NAME: index __ (IDE PhpStorm) Áåðåçåíü 2016
+//Created by Frank 07.03.2016 on (22:10). FOR PROJECT Â©VKhunter
+//FILE NAME: index __ (IDE PhpStorm) Ð‘ÐµÑ€ÐµÐ·ÐµÐ½ÑŒ 2016
 
