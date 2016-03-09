@@ -5,7 +5,7 @@
 ![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png)
 
 - [x] Firs commit
-- [ ] Add tree
+- [x] Add tree
 - [ ] API VK
 :circus_tent:
 
