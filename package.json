@@ -18,7 +18,10 @@
   "browser": {
     "angular": "./bower_components/angular/angular.js",
     "ui-route": "./bower_components/angular-ui-router/release/angular-ui-router.min.js",
-    "angular-resource": "./bower_components/angular-resource/angular-resource.min.js"
+    "angular-resource": "./bower_components/angular-resource/angular-resource.min.js",
+    "material-design-lite-css": "/home/vkhunter/vkhunter/bower_components/material-design-lite/material.min.css",
+    "material-design-lite-js": "/home/vkhunter/vkhunter/bower_components/material-design-lite/material.min.js",
+    "material-design-icons":"./bower_components/material-design-icons/iconfont/material-icons.css"
   },
   "devDependencies": {
     "babel-core": "^6.7.0",
