@@ -4,7 +4,9 @@
 import angular from "angular";
 
 import "ui-route";
+import "angular-resource";
 
 export default angular.module("vkhunter.front", [
-  'ui.router'
+  'ui.router',
+  'ngResource'
 ])
