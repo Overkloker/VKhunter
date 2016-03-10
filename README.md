@@ -1,4 +1,4 @@
-# VKhunter [![Build Status](https://travis-ci.org/Overkloker/VKhunter.svg?branch=master)](https://travis-ci.org/Overkloker/VKhunter)
+# VKhunter [![Build Status](https://travis-ci.org/Overkloker/VKhunter.svg?branch=develop)](https://travis-ci.org/Overkloker/VKhunter)
 
 **VKhunter** - this useful addition to Vkontakte
 
