@@ -5,6 +5,8 @@ import app from "./../application";
 import appLayoutTpl from "./../../themes/front/templates/app.html";
 import indexLayoutTpl from "./../../themes/front/templates/index.html";
 
+import userListTpl from "./../../themes/front/templates/user/list.html";
+
 app.config(function ($stateProvider, $urlRouterProvider) {
   $urlRouterProvider.otherwise("/");
 
@@ -18,5 +20,16 @@ app.config(function ($stateProvider, $urlRouterProvider) {
       url: '',
       templateUrl: indexLayoutTpl,
       controller: "IndexController"
+    })
+
+    .state('front.user', {
+      url: 'user',
+      abstract: true,
+      template: "<ui-view></ui-view>"
+    })
+    .state('front.user.list', {
+      url: '',
+      templateUrl: userListTpl,
+      controller: "UserController"
     })
 });
