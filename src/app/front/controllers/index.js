@@ -3,3 +3,5 @@
 import "./app.ctrl";
 
 import "./index.ctrl";
+
+import "./user.ctrl";

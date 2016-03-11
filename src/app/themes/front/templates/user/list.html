@@ -1,0 +1,8 @@
+<!--Березень 2016 by Frank-->
+
+<div class="users" ng-repeat="user in data">
+    <p>ім'я: {{user.first_name}}</p>
+    <p>прізвище: {{user.last_name}}</p>
+    <p>стать: {{user.sex == 1 ? 'жінка' : user.sex == 2 ? 'чоловік' : 'не задано'}}</p>
+    <p>id: {{user.uid}}</p>
+</div>
