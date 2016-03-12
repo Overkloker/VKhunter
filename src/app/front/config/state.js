@@ -7,7 +7,7 @@ import indexLayoutTpl from "./../../themes/front/templates/index.html";
 
 import userListTpl from "./../../themes/front/templates/user/list.html";
 
-app.config(function ($stateProvider, $urlRouterProvider, $locationProvider) {
+app.config(function ($stateProvider, $urlRouterProvider) {
   $urlRouterProvider.otherwise("/");
 
   $stateProvider
@@ -32,6 +32,4 @@ app.config(function ($stateProvider, $urlRouterProvider, $locationProvider) {
       templateUrl: userListTpl,
       controller: "UserController"
     });
-
-    $locationProvider.html5Mode(true);
 });
