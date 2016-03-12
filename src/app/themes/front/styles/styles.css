@@ -1,0 +1,21 @@
+.edgePadding {
+  padding-left: 25px;
+  padding-right: 25px;
+}
+.ng-dialog-left span {
+  position: absolute;
+  left: 0;
+  top: 0;
+  min-height: 1px;
+  min-width: 1px;
+}
+.ng-dialog-right span {
+  position: absolute;
+  right: 0;
+  top: 0;
+  min-height: 1px;
+  min-width: 1px;
+}
+.ng-dialog {
+  display: inline-block;
+}

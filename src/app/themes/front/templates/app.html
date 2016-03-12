@@ -3,7 +3,29 @@
 <button class="mdl-button mdl-js-button mdl-js-ripple-effect"
         ui-sref="front.user.list">
     User
-    <i class="material-icons">fingerprint</i>
+    <i class="material-icons">account_box</i>
 </button>
 
+
+<div class="ng-dialog">
+    <div class="ng-dialog-left">
+        <span id="left"></span>
+    </div>
+
+    <div>
+        <md-button class="md-primary md-raised edgePadding"
+                   ng-click="openDialog()">
+            sign In
+        </md-button>
+    </div>
+
+    <div class="ng-dialog-right">
+        <span id="right"></span>
+    </div>
+</div>
+
+<button class="mdl-button mdl-js-button mdl-js-ripple-effect" ng-click="auth()">
+    Авторизація
+    <i class="material-icons">fingerprint</i>
+</button>
 <ui-view></ui-view>
