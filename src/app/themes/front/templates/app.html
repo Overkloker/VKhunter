@@ -29,4 +29,17 @@
     <i class="material-icons">fingerprint</i>
 </button>
 
+
+<div class="sample">
+    <md-content class="md-padding">
+        <md-tabs md-selected="selectedIndex">
+            <md-tab ng-repeat="tab in pages" ng-disabled="tab.disabled" label="{{tab.title}}">
+                <div class="demo-tab tab{{$index%4}}">
+                    <div ng-bind="tab.content"></div>
+                </div>
+            </md-tab>
+        </md-tabs>
+    </md-content>
+</div>
+
 <ui-view></ui-view>

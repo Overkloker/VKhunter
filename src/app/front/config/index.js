@@ -3,3 +3,4 @@
 
 import "./state";
 import "./location";
+import "./theme";

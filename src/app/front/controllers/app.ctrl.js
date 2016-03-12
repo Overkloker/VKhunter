@@ -2,7 +2,9 @@
 //FILE NAME: app.ctrl __ (IDE PhpStorm) Березень 2016
 import app from "./../application";
 
-app.controller('AppController', function ($scope, AuthService, $location, $state) {
+import pages from "./../../libs/pages.json";
+
+app.controller('AppController', function ($scope, AuthService, $location, $state, $log) {
   //$scope.openDialog = function () {
   //  AuthService.signInDialog();
   //};
@@ -27,4 +29,9 @@ app.controller('AppController', function ($scope, AuthService, $location, $state
     $scope.checkCode();
     $state.go('front')
   }
+
+  //-------------------------
+
+  $scope.pages = pages;
+  $scope.selectedIndex = 0;
 });
