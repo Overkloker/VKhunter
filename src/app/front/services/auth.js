@@ -29,8 +29,9 @@ app.service('AuthService', function ($http) {
           redirect_uri: 'http://vkhunter.client.local/',
           code: code
         }
-      }).success(() => {
+      }).success((data) => {
         console.log("access token OK");
+        localStorage.setItem('accessToken', JSON.stringify(data));
       })
     }
   }
