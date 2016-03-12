@@ -11,7 +11,14 @@ import "material-design-lite-js";
 
 import "material-design-icons";
 
+import "angular-aria";
+import "angular-animate";
+import "angular-material-js";
+import "angular-material-css";
+import "angular-material-layouts-css";
+
 export default angular.module("vkhunter.front", [
   'ui.router',
-  'ngResource'
+  'ngResource',
+  'ngMaterial'
 ])
