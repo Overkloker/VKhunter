@@ -31,5 +31,5 @@ app.config(function ($stateProvider, $urlRouterProvider) {
       url: '',
       templateUrl: userListTpl,
       controller: "UserController"
-    })
+    });
 });
