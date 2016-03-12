@@ -5,7 +5,7 @@ import app from "./../application";
 
 import signInModal from "./../../themes/front/templates/dialogs/dialog.html";
 
-app.service('AuthService', function ($http, $mdDialog) {
+app.service('AuthService', function ($http) {
 
   class Authentication {
     //signInDialog() {
@@ -19,22 +19,21 @@ app.service('AuthService', function ($http, $mdDialog) {
     //    );
     //}
 
-    signIn() {
+    getAccessToken(code) {
       return $http({
         method: "GET",
-        url: "https://oauth.vk.com/authorize",
+        url: "https://oauth.vk.com/access_token",
         params: {
           client_id: '5347217',
+          client_secret: 'vwt0HF0j89Y6K4IBAfPr',
           redirect_uri: 'http://vkhunter.client.local/',
-          display: 'page'
+          code: code
         }
-      }).success((data) => {
-        console.log("ok");
-        return data
+      }).success(() => {
+        console.log("access token OK");
       })
     }
   }
-
 
   return new Authentication();
 });
