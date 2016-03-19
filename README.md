@@ -2,11 +2,7 @@
 
 **VKhunter** - this useful addition to Vkontakte
 
-![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png)
-
-- [x] Firs commit
-- [x] Add tree
-- [ ] API VK
+![Image of Yaktocat](https://cdn.colorlib.com/wp/wp-content/uploads/sites/2/minimal-bright-flat-social-icons.gif)
 
 ##License
 
